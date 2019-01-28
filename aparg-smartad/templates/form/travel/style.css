@@ -1,0 +1,282 @@
+
+.apsa-travel .apsa-template-container{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+}
+.apsa-travel .apsa-template-body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 5px solid white;
+    top: 0;
+    left: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.apsa-travel .apsa-button-wrap{
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    max-width: 90%;
+    box-sizing: border-box;
+}
+.apsa-travel .apsa-heading-wrap>div>span{
+    line-height: 1;
+}
+.apsa-travel .apsa-click-btn:active, 
+.apsa-travel .apsa-click-btn:visited{
+    color: inherit;
+}
+.apsa-travel .apsa-click-btn:focus {
+    outline: none;
+}
+.apsa-travel .apsa-click-btn:hover {
+    box-shadow:none !important;
+}
+.apsa-travel .apsa-click-btn{
+    vertical-align: middle;
+    display: inline-block;
+    text-decoration: none;
+    box-shadow: none;
+    word-break:normal;
+    max-width: 100%;
+    max-height: 100%;
+    white-space: nowrap;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: top;
+}
+.apsa-travel .apsa-heading-wrap{
+    font-family: sans-serif;
+
+}
+.apsa-travel .apsa-heading-one,
+.apsa-travel  .apsa-heading-two{
+    font-weight: bold;
+     white-space: nowrap;
+}
+.apsa-travel  .apsa-heading-three{
+     white-space: nowrap;
+}
+
+.apsa-travel .apsa-banner-h6 .apsa-heading-wrap{
+    position: relative;
+    width: 100%;
+    height: 35%;
+    top: 65%;
+    left: 0;
+}
+.apsa-travel .apsa-banner-h6 .apsa-heading-one{
+    position: relative;
+    max-width: 95%;
+    text-align: center;
+    vertical-align: middle;
+    top: 10%;
+    left: 5%;
+   
+}
+.apsa-travel .apsa-banner-h6 .apsa-heading-two{
+    position: relative;
+    max-width: 90%;
+    text-align: center;
+    vertical-align: middle;
+    top: 10%;
+    left: 10%;
+}
+.apsa-travel .apsa-banner-h6 .apsa-heading-three{
+    position: absolute;
+    float: right;
+    max-width: 99%;
+    text-align: center;
+    vertical-align: middle;
+    bottom: 1%;
+    right: 1%;
+}
+
+.apsa-travel .apsa-banner-h4 .apsa-heading-wrap{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    top: 70%;
+    left: 0;
+}
+.apsa-travel .apsa-banner-h4 .apsa-heading-one{
+    position: relative;
+    max-width: 95%;
+    text-align: center;
+    vertical-align: middle;
+    top: 10%;
+    left: 5%;
+}
+.apsa-travel .apsa-banner-h4 .apsa-heading-two{
+    position: relative;
+    max-width: 90%;
+    text-align: center;
+    vertical-align: middle;
+    top: 10%;
+    left: 10%;
+}
+.apsa-travel .apsa-banner-h4 .apsa-heading-three{
+    position: absolute;
+    float: right;
+    max-width: 99%;
+    text-align: center;
+    vertical-align: middle;
+    bottom: 1%;
+    right: 1%;
+}
+
+.apsa-travel .apsa-banner-h2 .apsa-heading-wrap{
+    position: relative;
+    width: 100%;
+    height: 25%;
+    top: 75%;
+    left: 0;
+}
+.apsa-travel .apsa-banner-h2 .apsa-heading-one{
+    position: relative;
+    float: left;
+    max-width: 95%;
+    top: 0;
+    left: 5%;
+}
+.apsa-travel .apsa-banner-h2 .apsa-heading-two{
+    position: relative;
+    float: left;
+    max-width: 95%;
+    top: 0;
+    left: 10%;
+}
+.apsa-travel .apsa-banner-h2 .apsa-heading-three{
+    position: absolute;
+    float: right;
+    max-width: 99%;
+    bottom: 1%;
+    right: 1%;
+}
+
+.apsa-travel .apsa-banner-wh .apsa-heading-wrap{
+    position: relative;
+    width: 100%;
+    height: 15%;
+    top: 85%;
+    left: 0;
+}
+.apsa-travel .apsa-banner-wh .apsa-heading-one{
+    position: relative;
+    float: left;
+    max-width: 45%;
+    top: 15%;
+    left: 1%;
+}
+.apsa-travel .apsa-banner-wh .apsa-heading-two{
+    position: relative;
+    float: left;
+    max-width: 45%;
+    top: 40%;
+    left: 2%;
+}
+.apsa-travel .apsa-banner-wh .apsa-heading-three{
+    position: absolute;
+    float: right;
+    max-width: 45%;
+    bottom: 1%;
+    right: 1%;
+}
+
+.apsa-travel .apsa-banner-w2 .apsa-heading-wrap{
+    position: relative;
+    width: 100%;
+    height: 20%;
+    top: 80%;
+    left: 0;
+}
+.apsa-travel .apsa-banner-w2 .apsa-heading-one{
+    position: relative;
+    float: left;
+    max-width: 45%;
+    top: 16%;
+    left: 1%;
+}
+.apsa-travel .apsa-banner-w2 .apsa-heading-two{
+    position: relative;
+    float: left;
+    max-width: 45%;
+    top: 45%;
+    left: 2%;
+}
+.apsa-travel .apsa-banner-w2 .apsa-heading-three{
+    position: absolute;
+    float: right;
+    max-width: 45%;
+    bottom: 1%;
+    right: 1%;
+}
+
+.apsa-travel .apsa-banner-w4 .apsa-heading-wrap{
+    position: relative;
+    width: 25%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.apsa-travel .apsa-banner-w4 .apsa-heading-one{
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+.apsa-travel .apsa-banner-w4 .apsa-heading-two{
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    top: 5%;
+}
+.apsa-travel .apsa-banner-w4 .apsa-heading-three{
+    position: absolute;
+    float: right;
+    max-width: 95%;
+    bottom: 1%;
+    right: 1%;
+}
+
+.apsa-travel .apsa-banner-w6 .apsa-heading-wrap{
+    position: relative;
+    width: 25%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.apsa-travel .apsa-banner-w6 .apsa-heading-one{
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+.apsa-travel .apsa-banner-w6 .apsa-heading-two{
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    top: 5%;
+}
+.apsa-travel .apsa-banner-w6 .apsa-heading-three{
+    position: absolute;
+    float: right;
+    max-width: 65%;
+    bottom: 1%;
+    right: 1%;
+}

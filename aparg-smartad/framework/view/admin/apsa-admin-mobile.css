@@ -1,0 +1,432 @@
+/** Media queries for responsiblity */
+@media only screen and (max-width: 1330px) {
+    .apsa-element-options .apsa-form-item {
+        width: 100% !important;
+        margin-right: 0 !important;
+    } 
+
+    .apsa-auto-placement .apsa-placement-area {
+        width: 8%;    
+    }
+
+    .apsa-auto-placement .apsa-placement-align {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1230px) {
+    .apsa-campaign-stat-cont .apsa-stat-filter input[type="text"] {
+        width: 49px;
+    }
+    .apsa-element-options .apsa-form-item {
+        width: 96% !important;
+    } 
+
+    .bootstrap-tagsinput {
+        width: 93.5% !important;
+    }
+
+    .apsa-auto-placement .apsa-placement-align {
+        width: 86%;
+    }
+}
+
+@media only screen and (max-width: 1127px) {
+    .apsa-element-status{
+        position: absolute;
+        left: 5px;
+        top: 62px;
+    }
+
+    .apsa-elements-header .apsa-waiting-wrapper {
+        float: none;
+    }
+
+    .apsa-waiting-button.apsa-add-element-wrap:before {
+        display: none;
+    }
+
+    .apsa-waiting-button.apsa-add-element-wrap:after {
+        background-image: url(images/spinner.gif);
+        background-size: cover;
+        content: '';
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        margin-right: 5px;
+        vertical-align: middle;    
+    }
+
+    .apsa-elements-header button.apsa-add-element {
+        display: block;
+        float: none;
+    }
+
+    .apsa-auto-placement .apsa-placement-area {
+        width: 10%;    
+    }
+
+    .apsa-auto-placement .apsa-placement-align {
+        width: 90%;
+    }
+
+    .apsa-auto-placement .apsa-placement-align {
+        width: 85%;
+    }    
+}
+
+@media only screen and (max-width : 990px) {
+
+    .apsa-mobile-admin .apsa-camp-info{
+        max-width:28%;
+    }
+    .apsa-campaign-stat-cont .apsa-stat-filter input[type="text"] {
+        width: 46px;
+    }
+
+    .apsa-element-options .apsa-form-item {
+        width: 94% !important;
+    }     
+
+    .bootstrap-tagsinput {
+        width: 90.5% !important;
+    }
+
+    .apsa-campaign-name {
+        font-size: 16px;
+    }
+
+    .apsa-campaign-status, .apsa-element-status {
+        font-size: 12px;
+    }
+
+    .apsa-camp-data div:first-child {
+        font-size: 22px;
+        line-height: 17px;
+        margin-bottom: 3px;
+    }
+
+    .apsa-element-data div:last-child {
+        font-size: 10px;
+        line-height: 11px;
+    }
+
+    .apsa-camp-data div:last-child {
+        font-size: 10px;
+        line-height: 11px;
+    }
+
+    .apsa-element-data div:first-child {
+        font-size: 22px;
+        line-height: 17px;
+        margin-bottom: 11px;
+    }
+
+    .apsa-camp-data li {
+        padding: 0 4px;
+    }
+
+    .apsa-element-data li {
+        padding: 0 4px;
+    }
+
+    .apsa-element-type-logo {
+        height: 45px;
+        width: 45px;
+    }
+
+    .apsa-campaign-settings {
+        margin-left: 1%;
+    }
+
+    .apsa-campaign-elements {
+        width: 62%;
+    }
+
+    .apsa-element-status {
+        top: 55px;
+    }
+
+    .apsa-element-info {
+        max-width: 26%;
+    }   
+
+    #apsa-save-camps-cont {
+        position: absolute;
+        right: 0px;
+        top: 0;
+    }
+
+    #apsa-element-campaign-header span {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    #apsa-managing-wrap:not(.apsa-mobile-admin) .apsa-camp-info {
+        max-width: 32%;
+    }
+
+    .apsa-auto-placement .apsa-placement-align {
+        width: 83%;
+    }    
+}
+
+@media only screen and (max-width : 782px) {      
+    .apsa-element-stat-cont .apsa-stat-filter input[type="text"] ,.apsa-campaign-stat-cont .apsa-stat-filter input[type="text"] {
+        width: 70px;
+    }
+
+    .apsa-element-options .apsa-form-item {
+        width: 90% !important;
+    } 
+
+    .bootstrap-tagsinput {
+        width: 86.5% !important;
+    }
+
+    .apsa-wp-popup {
+        width: 100% !important;
+    }
+
+    .apsa-campaign-name {
+        font-size: 14px;
+    }
+
+    .apsa-campaign-type-logo {
+        height: 55px;
+        width: 82px;
+    }
+
+    .apsa-elements-filter {
+        margin: 0 4px;
+        font-size: 12px;
+    } 
+
+    .apsa-camp-data div:first-child {
+        height: 22px;
+    }
+
+    .apsa-element-data div:first-child {
+        height: 22px;
+    }
+
+    .apsa-campaign-content{
+        display: table;	
+        border-collapse: collapse;	
+        width:100%	
+    }
+
+    .apsa-campaign-elements{
+        display: table-footer-group;
+    }
+
+    .apsa-campaign-settings{
+        display: table-header-group;
+
+    }
+
+    [data-apsa-open="false"] {
+        display:none !important;
+    }
+
+    .apsa-sort-mover{
+        display:none;
+    }
+
+    .apsa-campaign-fate{
+        margin-top:12px;
+    }
+
+    input.apsa-campaign-name, input.apsa-element-name{
+        padding-left:0;
+    }
+
+    .apsa-popup.apsa-wp-popup{
+        top:0;
+        height:100%;
+        overflow:auto;
+        position: fixed;
+        background-color:#fff;
+    }
+
+    .apsa-popup-footer, .apsa-popup-header{
+        position: fixed;
+        width: 100%;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        background-color: #FCFCFC;
+    }
+
+    .apsa-popup-footer{
+        bottom:0;
+        height:auto;
+    }
+
+    .apsa-popup-header{
+        top:0;
+    }
+
+    .apsa-popup-cont{
+        margin-top: 70px;
+        margin-bottom: 55px;
+    }
+
+    .apsa-popup .CodeMirror {
+        margin-top: 67px;  
+        max-height:100%;
+    }
+
+    .apsa-save-camp-cont .apsa-waiting-wrapper{		
+        margin-top: -3px;
+    }
+
+    #apsa-add-campaign{
+        margin-left:0;
+    }
+
+    .apsa-element-name{
+        margin: 0;
+        padding-bottom: 3px !important;
+    }
+
+    .apsa-element-status{
+        position: initial;
+        left: initial;
+        top: initial;
+    }
+
+    .apsa-elements-header .apsa-waiting-wrapper {
+        float: right;
+    }
+
+    .apsa-waiting-button.apsa-add-element-wrap:after {
+        display: none;
+    }
+
+    .apsa-waiting-button.apsa-add-element-wrap:before {
+        background-image: url(images/spinner.gif);
+        background-size: cover;
+        content: '';
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        margin-right: 5px;
+        vertical-align: middle;    
+    }
+
+
+    #apsa-managing-wrap:not(.apsa-mobile-admin) .apsa-campaign-status {
+        position: absolute;
+        left: 0;
+        top: 60px;
+    }
+    #apsa-managing-wrap:not(.apsa-mobile-admin) .apsa-camp-info {
+        max-width: 22%;
+    }
+    #apsa-managing-wrap:not(.apsa-mobile-admin) .apsa-element-status {
+        position: absolute;
+        left: 5px;
+        top: 62px;
+    }
+    #apsa-anticache #apsa-cache-enable{
+        margin-top: 4px !important;
+    }
+
+    .apsa-auto-placement .apsa-placement-align {
+        width: 74%;
+    }    
+}
+
+@media only screen and (max-width : 692px){
+    .apsa-mobile-admin #apsa-add-campaign, .apsa-mobile-admin #apsa-export-all, .apsa-mobile-admin #apsa-custom-css, .apsa-mobile-admin #apsa-custom-css .apsa-type-code,.apsa-mobile-admin #apsa-warning-text, .apsa-mobile-admin #apsa-warning-text .apsa-type-code,.apsa-mobile-admin #apsa-anticache,.apsa-mobile-admin #apsa-anticache button{
+        width: 100%;
+    }
+
+    /*    #apsa-anticache{
+            margin-top: 4px !important;
+        }*/
+    .apsa-code-type{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width : 592px) {    
+    .apsa-elements-header .apsa-waiting-wrapper {
+        float: none;
+    }
+
+    .apsa-waiting-button.apsa-add-element-wrap:before {
+        display: none;
+    }
+
+    .apsa-waiting-button.apsa-add-element-wrap:after {
+        background-image: url(images/spinner.gif);
+        background-size: cover;
+        content: '';
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        margin-right: 5px;
+        vertical-align: middle;    
+    }
+
+    .apsa-mobile-admin .apsa-element-info {
+        max-width: 40%;
+    }
+
+    .apsa-mobile-admin .apsa-campaign-status {
+        position: absolute;
+        left: 0;
+        top: 60px;        
+    }
+
+    .apsa-mobile-admin .apsa-element-status{
+        position: absolute;
+        left: 5px;
+        top: 56px;
+    }
+
+    .apsa-mobile-admin .apsa-campaign-header {
+        padding: 5px 0 12px 0;
+    }
+
+
+}
+
+@media only screen and (max-width : 488px) {
+    .apsa-mobile-admin #apsa-by-aparg {
+        display: block;
+        float: none;
+    }
+    .apsa-mobile-admin .apsa-campaign-status, .apsa-mobile-admin .apsa-element-status{
+        position: absolute;
+        left: 0;
+        top: 60px;
+    }
+    .apsa-mobile-admin .apsa-element-status{
+        left: 5px;
+        top: 70px;
+    }
+    .apsa-mobile-admin .apsa-camp-info{
+        max-width:55%;
+    }
+    .apsa-mobile-admin .apsa-element-info {
+
+        max-width: 70%;
+    }
+    .apsa-mobile-admin .apsa-camp-data {
+        display: block;
+        float: none;
+        margin-left: 90px;
+    }
+    .apsa-mobile-admin .apsa-element-header .apsa-element-data {
+        display: block;
+        float: none;
+        margin-left: 50px;
+    }
+
+    .apsa-auto-placement .apsa-placement-area {
+        width: 12%;    
+    }
+}

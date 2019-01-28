@@ -1,0 +1,968 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Aparg SmartAd\n"
+"POT-Creation-Date: 2017-08-16 16:39+0400\n"
+"PO-Revision-Date: 2016-04-29 09:19+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: aparg-smartad.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: framework/apsa-framework.php:1245
+msgid "Content"
+msgstr ""
+
+#: framework/apsa-framework.php:1270
+msgid "Css"
+msgstr ""
+
+#: framework/apsa-framework.php:1272
+msgid "Design Options"
+msgstr ""
+
+#: main/includes/apsa-labels.php:9
+msgid "Ads"
+msgstr ""
+
+#: main/includes/apsa-labels.php:10
+msgid "Update failed."
+msgstr ""
+
+#: main/includes/apsa-labels.php:11
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr ""
+
+#: main/includes/apsa-labels.php:13 main/includes/apsa-labels.php:18
+msgid "Image"
+msgstr ""
+
+#: main/includes/apsa-labels.php:14 main/includes/apsa-labels.php:19
+msgid "Video"
+msgstr ""
+
+#: main/includes/apsa-labels.php:15 main/includes/apsa-labels.php:20
+msgid "Flash"
+msgstr ""
+
+#: main/includes/apsa-labels.php:16 main/includes/apsa-labels.php:21
+msgid "Code"
+msgstr ""
+
+#: main/includes/apsa-labels.php:17 main/includes/apsa-labels.php:22
+msgid "Iframe"
+msgstr ""
+
+#: main/includes/apsa-labels.php:23
+msgid "Broken Link"
+msgstr ""
+
+#: main/includes/apsa-labels.php:24 main/includes/apsa-labels.php:88
+msgid "no restrict"
+msgstr ""
+
+#: main/includes/apsa-labels.php:25 main/includes/apsa-labels.php:89
+msgid "Limit Expired"
+msgstr ""
+
+#: main/includes/apsa-labels.php:26 main/includes/apsa-labels.php:27
+#: main/includes/apsa-labels.php:61
+msgid "Clicks"
+msgstr ""
+
+#: main/includes/apsa-labels.php:28
+msgid "CTR"
+msgstr ""
+
+#: main/includes/apsa-labels.php:29
+msgid "Link To"
+msgstr ""
+
+#: main/includes/apsa-labels.php:30
+msgid "URL to customer’s website."
+msgstr ""
+
+#: main/includes/apsa-labels.php:31
+msgid "Max Clicks"
+msgstr ""
+
+#: main/includes/apsa-labels.php:32
+msgid "Number of clicks after which the ad will be automatically suspended."
+msgstr ""
+
+#: main/includes/apsa-labels.php:33
+msgid "Image file"
+msgstr ""
+
+#: main/includes/apsa-labels.php:34
+msgid "Path to image."
+msgstr ""
+
+#: main/includes/apsa-labels.php:35 main/includes/apsa-labels.php:38
+msgid "Choose"
+msgstr ""
+
+#: main/includes/apsa-labels.php:36
+msgid "SWF File"
+msgstr ""
+
+#: main/includes/apsa-labels.php:37
+msgid "Path to SWF file."
+msgstr ""
+
+#: main/includes/apsa-labels.php:39
+msgid "Youtube/Vimeo URL"
+msgstr ""
+
+#: main/includes/apsa-labels.php:40
+msgid "URL of Youtube or Vimeo video."
+msgstr ""
+
+#: main/includes/apsa-labels.php:41
+msgid "Source URL"
+msgstr ""
+
+#: main/includes/apsa-labels.php:42
+msgid "URL of website to load."
+msgstr ""
+
+#: main/includes/apsa-labels.php:43
+msgid "HTML code"
+msgstr ""
+
+#: main/includes/apsa-labels.php:44
+msgid "Custom code."
+msgstr ""
+
+#: main/includes/apsa-labels.php:45
+msgid "Enter"
+msgstr ""
+
+#: main/includes/apsa-labels.php:46
+msgid "Background Image Type"
+msgstr ""
+
+#: main/includes/apsa-labels.php:47
+msgid "Type of the background image."
+msgstr ""
+
+#: main/includes/apsa-labels.php:48
+msgid "Link Color"
+msgstr ""
+
+#: main/includes/apsa-labels.php:49
+msgid "Choose the link color in HTML Hex format."
+msgstr ""
+
+#: main/includes/apsa-labels.php:50
+msgid "Contain"
+msgstr ""
+
+#: main/includes/apsa-labels.php:51
+msgid "Cover"
+msgstr ""
+
+#: main/includes/apsa-labels.php:52
+msgid "Repeat"
+msgstr ""
+
+#: main/includes/apsa-labels.php:53
+msgid "Enter valid url"
+msgstr ""
+
+#: main/includes/apsa-labels.php:54
+msgid "Link Open Type"
+msgstr ""
+
+#: main/includes/apsa-labels.php:55
+msgid "Choose how to open the ad link."
+msgstr ""
+
+#: main/includes/apsa-labels.php:56
+msgid "New Tab"
+msgstr ""
+
+#: main/includes/apsa-labels.php:57
+msgid "Self"
+msgstr ""
+
+#: main/includes/apsa-labels.php:58
+msgid "New Window"
+msgstr ""
+
+#: main/includes/apsa-labels.php:59
+msgid "Show Link"
+msgstr ""
+
+#: main/includes/apsa-labels.php:60
+msgid "Choose whether to show or not the ad link."
+msgstr ""
+
+#: main/includes/apsa-labels.php:62
+msgid "Auto Play Video"
+msgstr ""
+
+#: main/includes/apsa-labels.php:63
+msgid "Choose whether to automatically play ad video or not."
+msgstr ""
+
+#: main/includes/apsa-labels.php:67 main/includes/apsa-labels.php:76
+#: main/includes/apsa-labels.php:167
+msgid "Views"
+msgstr ""
+
+#: main/includes/apsa-labels.php:69 main/includes/apsa-labels.php:247
+msgid "All"
+msgstr ""
+
+#: main/includes/apsa-labels.php:70 main/includes/apsa-labels.php:202
+#: main/includes/apsa-labels.php:248
+msgid "Active"
+msgstr ""
+
+#: main/includes/apsa-labels.php:71 main/includes/apsa-labels.php:203
+#: main/includes/apsa-labels.php:249
+msgid "Suspended"
+msgstr ""
+
+#: main/includes/apsa-labels.php:72 main/includes/apsa-labels.php:245
+msgid "Add New"
+msgstr ""
+
+#: main/includes/apsa-labels.php:73 main/includes/apsa-labels.php:126
+#: main/includes/apsa-labels.php:255
+msgid "Activate"
+msgstr ""
+
+#: main/includes/apsa-labels.php:74 main/includes/apsa-labels.php:127
+msgid "Suspend"
+msgstr ""
+
+#: main/includes/apsa-labels.php:75 main/includes/apsa-labels.php:129
+msgid "Delete"
+msgstr ""
+
+#: main/includes/apsa-labels.php:77
+msgid "Detailed description."
+msgstr ""
+
+#: main/includes/apsa-labels.php:78
+msgid "Deadline"
+msgstr ""
+
+#: main/includes/apsa-labels.php:79
+msgid "Date after which the ad will be automatically suspended."
+msgstr ""
+
+#: main/includes/apsa-labels.php:80
+msgid "no deadline"
+msgstr ""
+
+#: main/includes/apsa-labels.php:81
+msgid "Deadline Reached"
+msgstr ""
+
+#: main/includes/apsa-labels.php:82
+msgid "Schedule"
+msgstr ""
+
+#: main/includes/apsa-labels.php:83
+msgid "Date from which the ad will automatically start showing."
+msgstr ""
+
+#: main/includes/apsa-labels.php:84
+msgid "no schedule"
+msgstr ""
+
+#: main/includes/apsa-labels.php:85
+msgid "Not Viewing Yet"
+msgstr ""
+
+#: main/includes/apsa-labels.php:86
+msgid "Max Views"
+msgstr ""
+
+#: main/includes/apsa-labels.php:87
+msgid "Number of views after which the ad will be automatically suspended."
+msgstr ""
+
+#: main/includes/apsa-labels.php:90
+msgid "Include"
+msgstr ""
+
+#: main/includes/apsa-labels.php:91
+msgid "Specify posts, pages, tags or categories where ad must be shown."
+msgstr ""
+
+#: main/includes/apsa-labels.php:93
+msgid "All Pages"
+msgstr ""
+
+#: main/includes/apsa-labels.php:95
+msgid "All Posts"
+msgstr ""
+
+#: main/includes/apsa-labels.php:96
+msgid "Tag"
+msgstr ""
+
+#: main/includes/apsa-labels.php:97
+msgid "Category"
+msgstr ""
+
+#: main/includes/apsa-labels.php:98
+msgid "Page"
+msgstr ""
+
+#: main/includes/apsa-labels.php:99
+msgid "Post"
+msgstr ""
+
+#: main/includes/apsa-labels.php:100
+msgid "Language"
+msgstr ""
+
+#: main/includes/apsa-labels.php:101
+msgid "Device"
+msgstr ""
+
+#: main/includes/apsa-labels.php:102
+msgid "Desktop"
+msgstr ""
+
+#: main/includes/apsa-labels.php:103
+msgid "Tablet"
+msgstr ""
+
+#: main/includes/apsa-labels.php:104
+msgid "Mobile"
+msgstr ""
+
+#: main/includes/apsa-labels.php:105
+msgid "Tag name"
+msgstr ""
+
+#: main/includes/apsa-labels.php:106
+msgid "Category name"
+msgstr ""
+
+#: main/includes/apsa-labels.php:107
+msgid "Post name or \"%all_posts%\""
+msgstr ""
+
+#: main/includes/apsa-labels.php:108
+msgid "Page name or \"%all_pages%\""
+msgstr ""
+
+#: main/includes/apsa-labels.php:109
+msgid "Language name or \"%language%\""
+msgstr ""
+
+#: main/includes/apsa-labels.php:110
+msgid "Device name or \"%device%\""
+msgstr ""
+
+#: main/includes/apsa-labels.php:111
+msgid "Yellow"
+msgstr ""
+
+#: main/includes/apsa-labels.php:112
+msgid "Blue"
+msgstr ""
+
+#: main/includes/apsa-labels.php:113
+msgid "Red"
+msgstr ""
+
+#: main/includes/apsa-labels.php:114
+msgid "Green"
+msgstr ""
+
+#: main/includes/apsa-labels.php:115
+msgid "Light Blue"
+msgstr ""
+
+#: main/includes/apsa-labels.php:116
+msgid "Grey"
+msgstr ""
+
+#: main/includes/apsa-labels.php:117
+msgid "Exclude"
+msgstr ""
+
+#: main/includes/apsa-labels.php:118
+msgid "Specify posts, pages, tags or categories where ad must be hidden."
+msgstr ""
+
+#: main/includes/apsa-labels.php:119 main/includes/apsa-labels.php:164
+msgid "Statistics"
+msgstr ""
+
+#: main/includes/apsa-labels.php:120
+msgid "From"
+msgstr ""
+
+#: main/includes/apsa-labels.php:121
+msgid "To"
+msgstr ""
+
+#: main/includes/apsa-labels.php:122
+msgid "Show"
+msgstr ""
+
+#: main/includes/apsa-labels.php:123
+msgid "Export stats"
+msgstr ""
+
+#: main/includes/apsa-labels.php:124
+msgid "General"
+msgstr ""
+
+#: main/includes/apsa-labels.php:125
+msgid "Shortcode"
+msgstr ""
+
+#: main/includes/apsa-labels.php:128
+msgid "Export Campaign Stats"
+msgstr ""
+
+#: main/includes/apsa-labels.php:130
+msgid "Specify posts, pages, tags or categories where campaign must be shown."
+msgstr ""
+
+#: main/includes/apsa-labels.php:131
+msgid "Specify posts, pages, tags or categories where campaign must be hidden."
+msgstr ""
+
+#: main/includes/apsa-labels.php:132
+msgid "Options"
+msgstr ""
+
+#: main/includes/apsa-labels.php:133
+msgid "Change Interval"
+msgstr ""
+
+#: main/includes/apsa-labels.php:134
+msgid ""
+"Interval between changing ads of the current campaign measured in seconds."
+msgstr ""
+
+#: main/includes/apsa-labels.php:135 main/includes/apsa-labels.php:140
+msgid "each reload"
+msgstr ""
+
+#: main/includes/apsa-labels.php:136
+msgid "Background Selector"
+msgstr ""
+
+#: main/includes/apsa-labels.php:137
+msgid "CSS selector of the element to which background ad will be applied to."
+msgstr ""
+
+#: main/includes/apsa-labels.php:138
+msgid "Show Interval"
+msgstr ""
+
+#: main/includes/apsa-labels.php:139
+msgid ""
+"Interval by the end of which the next ad will be shown measured in seconds."
+msgstr ""
+
+#: main/includes/apsa-labels.php:141 main/includes/apsa-labels.php:143
+msgid "Animation Type"
+msgstr ""
+
+#: main/includes/apsa-labels.php:142 main/includes/apsa-labels.php:144
+msgid "Animation type of the ad."
+msgstr ""
+
+#: main/includes/apsa-labels.php:145
+msgid "Width"
+msgstr ""
+
+#: main/includes/apsa-labels.php:146
+msgid "Width of the ad container element measured in both px and %."
+msgstr ""
+
+#: main/includes/apsa-labels.php:147
+msgid "Default:"
+msgstr ""
+
+#: main/includes/apsa-labels.php:148
+msgid "Height"
+msgstr ""
+
+#: main/includes/apsa-labels.php:149
+msgid "Height of the ad container element measured in both px and %."
+msgstr ""
+
+#: main/includes/apsa-labels.php:150
+msgid "Height of the ad container element measured in px."
+msgstr ""
+
+#: main/includes/apsa-labels.php:151
+msgid "Popup Show Delay"
+msgstr ""
+
+#: main/includes/apsa-labels.php:152
+msgid "Delay of showing ad popup after page loaded measured in seconds."
+msgstr ""
+
+#: main/includes/apsa-labels.php:153
+msgid "Popup Autoclose"
+msgstr ""
+
+#: main/includes/apsa-labels.php:154
+msgid ""
+"Automatically close popup after given period of time measured in seconds."
+msgstr ""
+
+#: main/includes/apsa-labels.php:155
+msgid "no autoclose"
+msgstr ""
+
+#: main/includes/apsa-labels.php:156
+msgid "Put In Frame"
+msgstr ""
+
+#: main/includes/apsa-labels.php:157
+msgid "Choose whether to wrap or not the ad popup into frame."
+msgstr ""
+
+#: main/includes/apsa-labels.php:158
+msgid "Close Button Delay"
+msgstr ""
+
+#: main/includes/apsa-labels.php:159
+msgid "Delay of showing close button after showing popup measured in seconds."
+msgstr ""
+
+#: main/includes/apsa-labels.php:160
+msgid "Background Pattern"
+msgstr ""
+
+#: main/includes/apsa-labels.php:161
+msgid "Pattern of background ad."
+msgstr ""
+
+#: main/includes/apsa-labels.php:162
+msgid "Overlay Pattern"
+msgstr ""
+
+#: main/includes/apsa-labels.php:163
+msgid "Pattern of popup ad overlay."
+msgstr ""
+
+#: main/includes/apsa-labels.php:165
+msgid "Ad Statistics"
+msgstr ""
+
+#: main/includes/apsa-labels.php:166
+msgid "Full Statistics"
+msgstr ""
+
+#: main/includes/apsa-labels.php:168
+msgid "Background"
+msgstr ""
+
+#: main/includes/apsa-labels.php:169
+msgid "Popup"
+msgstr ""
+
+#: main/includes/apsa-labels.php:170
+msgid "Embed"
+msgstr ""
+
+#: main/includes/apsa-labels.php:171
+msgid "Drag & Drop"
+msgstr ""
+
+#: main/includes/apsa-labels.php:172
+msgid "s"
+msgstr ""
+
+#: main/includes/apsa-labels.php:173
+msgid "Fill required field in"
+msgstr ""
+
+#: main/includes/apsa-labels.php:174
+msgid "Enter positive integer"
+msgstr ""
+
+#: main/includes/apsa-labels.php:175
+msgid "Failed to get statistics."
+msgstr ""
+
+#: main/includes/apsa-labels.php:176
+msgid "Incorrect type of file, choose correct type."
+msgstr ""
+
+#: main/includes/apsa-labels.php:177
+msgid "Failed to create, you must choose type for new campaign."
+msgstr ""
+
+#: main/includes/apsa-labels.php:178
+msgid "Created new campaign."
+msgstr ""
+
+#: main/includes/apsa-labels.php:179
+msgid "Can not add campaign."
+msgstr ""
+
+#: main/includes/apsa-labels.php:180
+msgid "Check forms’ requirements."
+msgstr ""
+
+#: main/includes/apsa-labels.php:181
+msgid "Campaign saved."
+msgstr ""
+
+#: main/includes/apsa-labels.php:182
+msgid "Campaign not saved."
+msgstr ""
+
+#: main/includes/apsa-labels.php:183
+msgid "Failed to create, you must choose type for new ad."
+msgstr ""
+
+#: main/includes/apsa-labels.php:184
+msgid "Created new ad."
+msgstr ""
+
+#: main/includes/apsa-labels.php:185
+msgid "Can not create the ad."
+msgstr ""
+
+#: main/includes/apsa-labels.php:186
+msgid "Campaign deleted."
+msgstr ""
+
+#: main/includes/apsa-labels.php:187
+msgid "Campaign activated."
+msgstr ""
+
+#: main/includes/apsa-labels.php:188
+msgid "Campaign suspended."
+msgstr ""
+
+#: main/includes/apsa-labels.php:189 main/includes/apsa-labels.php:190
+#: main/includes/apsa-labels.php:195
+msgid "Can not perform the action."
+msgstr ""
+
+#: main/includes/apsa-labels.php:191
+msgid "Ad deleted."
+msgstr ""
+
+#: main/includes/apsa-labels.php:192
+msgid "Can not delete the ad."
+msgstr ""
+
+#: main/includes/apsa-labels.php:193
+msgid "Ad activated."
+msgstr ""
+
+#: main/includes/apsa-labels.php:194
+msgid "Ad suspended."
+msgstr ""
+
+#: main/includes/apsa-labels.php:196
+msgid "There are no campaigns to get statistics for."
+msgstr ""
+
+#: main/includes/apsa-labels.php:197
+msgid "Campaigns updated."
+msgstr ""
+
+#: main/includes/apsa-labels.php:198
+msgid "Do you want to delete the campaign?"
+msgstr ""
+
+#: main/includes/apsa-labels.php:199
+msgid "Delete Campaign"
+msgstr ""
+
+#: main/includes/apsa-labels.php:200
+msgid "Do you want to delete the ad?"
+msgstr ""
+
+#: main/includes/apsa-labels.php:201
+msgid "Delete The Ad"
+msgstr ""
+
+#: main/includes/apsa-labels.php:204
+msgid "Date:"
+msgstr ""
+
+#: main/includes/apsa-labels.php:205
+msgid "Count"
+msgstr ""
+
+#: main/includes/apsa-labels.php:206
+msgid "No result"
+msgstr ""
+
+#: main/includes/apsa-labels.php:207
+msgid "Yes"
+msgstr ""
+
+#: main/includes/apsa-labels.php:208
+msgid "Cancel"
+msgstr ""
+
+#: main/includes/apsa-labels.php:209
+msgid "Update"
+msgstr ""
+
+#: main/includes/apsa-labels.php:210 main/includes/apsa-labels.php:226
+msgid "Center"
+msgstr ""
+
+#: main/includes/apsa-labels.php:211
+msgid "From top"
+msgstr ""
+
+#: main/includes/apsa-labels.php:212
+msgid "From right"
+msgstr ""
+
+#: main/includes/apsa-labels.php:213
+msgid "From bottom"
+msgstr ""
+
+#: main/includes/apsa-labels.php:214
+msgid "From left"
+msgstr ""
+
+#: main/includes/apsa-labels.php:215
+msgid "Background campaign"
+msgstr ""
+
+#: main/includes/apsa-labels.php:216
+msgid "Popup campaign"
+msgstr ""
+
+#: main/includes/apsa-labels.php:217
+msgid "Embed campaign"
+msgstr ""
+
+#: main/includes/apsa-labels.php:218
+msgid "Successfully updated."
+msgstr ""
+
+#: main/includes/apsa-labels.php:219
+msgid "Please update your browser"
+msgstr ""
+
+#: main/includes/apsa-labels.php:220
+msgid "Popup Color"
+msgstr ""
+
+#: main/includes/apsa-labels.php:221
+msgid "Popup Header Color"
+msgstr ""
+
+#: main/includes/apsa-labels.php:222
+msgid "Choose the popup frame and the background color in HTML Hex format."
+msgstr ""
+
+#: main/includes/apsa-labels.php:223
+msgid "Choose the popup header color in HTML Hex format."
+msgstr ""
+
+#: main/includes/apsa-labels.php:224
+msgid "Alignment"
+msgstr ""
+
+#: main/includes/apsa-labels.php:225
+msgid "Left"
+msgstr ""
+
+#: main/includes/apsa-labels.php:227
+msgid "Right"
+msgstr ""
+
+#: main/includes/apsa-labels.php:228
+msgid "None"
+msgstr ""
+
+#: main/includes/apsa-labels.php:229
+msgid ""
+"If enabled ads will be rotating in the campaign even with a cache plugin "
+"installed <br> Note: After enabling/disabling Anti-Cache clear cache files"
+msgstr ""
+
+#: main/includes/apsa-labels.php:230
+msgid "Anti-Cache"
+msgstr ""
+
+#: main/includes/apsa-labels.php:231
+msgid "Choose Ad Type"
+msgstr ""
+
+#: main/includes/apsa-labels.php:232
+msgid "A widget that displays ads of embed campaign."
+msgstr ""
+
+#: main/includes/apsa-labels.php:233
+msgid "General Settings"
+msgstr ""
+
+#: main/includes/apsa-labels.php:234
+msgid ""
+"We have detected cache plugin and recommend to activate Anti-Cache option "
+"from \"%gen_settings%\"."
+msgstr ""
+
+#: main/includes/apsa-labels.php:235
+msgid "Update All"
+msgstr ""
+
+#: main/includes/apsa-labels.php:236
+msgid "Developed by"
+msgstr ""
+
+#: main/includes/apsa-labels.php:237
+msgid "Custom CSS"
+msgstr ""
+
+#: main/includes/apsa-labels.php:238
+msgid "Choose Campaign Type"
+msgstr ""
+
+#: main/includes/apsa-labels.php:239
+msgid "Add"
+msgstr ""
+
+#: main/includes/apsa-labels.php:240
+msgid "Enter Code"
+msgstr ""
+
+#: main/includes/apsa-labels.php:241
+msgid "Ok"
+msgstr ""
+
+#: main/includes/apsa-labels.php:242
+msgid "Choose Period"
+msgstr ""
+
+#: main/includes/apsa-labels.php:243
+msgid "Export"
+msgstr ""
+
+#: main/includes/apsa-labels.php:244
+msgid "Campaigns"
+msgstr ""
+
+#: main/includes/apsa-labels.php:246
+msgid "Export Full Stats"
+msgstr ""
+
+#: main/includes/apsa-labels.php:250
+msgid "Add New Campaign"
+msgstr ""
+
+#: main/includes/apsa-labels.php:251
+msgid "Select campaign"
+msgstr ""
+
+#: main/includes/apsa-labels.php:252
+msgid "There is no campaign to select"
+msgstr ""
+
+#: main/includes/apsa-labels.php:253 main/includes/apsa-labels.php:265
+msgid "Settings"
+msgstr ""
+
+#: main/includes/apsa-labels.php:254
+msgid "AdBlock Warning"
+msgstr ""
+
+#: main/includes/apsa-labels.php:256
+msgid ""
+"This warning will appear if AdBlock plugin installed in a client browser"
+msgstr ""
+
+#: main/includes/apsa-labels.php:257
+msgid "To get the best experience of using our site please disable ad blocker."
+msgstr ""
+
+#: main/includes/apsa-labels.php:258
+msgid "Select embed campaign."
+msgstr ""
+
+#: main/includes/apsa-labels.php:259
+msgid "Embed alignment"
+msgstr ""
+
+#: main/includes/apsa-labels.php:260
+msgid "Select embed alignment."
+msgstr ""
+
+#: main/includes/apsa-labels.php:261
+msgid "Campaigns page"
+msgstr ""
+
+#: main/includes/apsa-labels.php:262
+msgid "General Settings page"
+msgstr ""
+
+#: main/includes/apsa-labels.php:263
+msgid "Settings page"
+msgstr ""
+
+#: main/includes/apsa-labels.php:264
+msgid ""
+"Paste generated shortcode to a post or a page. For alignement generate new "
+"shortcode and paste it."
+msgstr ""
+
+#: main/includes/apsa-labels.php:266
+msgid "Choose file"
+msgstr ""
+
+#: main/includes/apsa-labels.php:268
+msgid "Auto Placement"
+msgstr ""
+
+#: main/includes/apsa-labels.php:269
+msgid ""
+"Specify where shortcode must be automatically placed and select alignment."
+msgstr ""
+
+#: main/includes/apsa-labels.php:270
+msgid "Before Content"
+msgstr ""
+
+#: main/includes/apsa-labels.php:271
+msgid "After Content"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Aparg SmartAd"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The only one of a kind WordPress plugin for managing ads with smart "
+"controlling."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Aparg"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://aparg.com/"
+msgstr ""

@@ -1,0 +1,276 @@
+.apsa-builder-part {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.apsa-template-wrapper {
+    float: right;    
+    width: 46%;    
+    min-height: 200px;
+    box-sizing: border-box;
+}
+
+.apsa-template-cont {
+    min-height: 180px;
+}
+
+.apsa-parent-cont, .apsa-template-cont {
+    border: dashed 5px #D9D9D9;
+    margin-bottom: 0;
+    padding: 1%;
+    position: relative;
+}
+
+.apsa-availables-wrapper {
+    position: relative;
+    width: 46%;    
+    float: left;
+}
+
+.apsa-template-wrapper .apsa-available-element {
+    width: 100%;
+    margin: 10px 2% 24px 0;
+}
+
+.apsa-availables-wrapper .apsa-available-element{
+    display: inline-block;
+    width: 31%;
+    min-width: 170px;
+    margin: 10px 2% 24px 0;
+}
+
+.apsa-available-element {
+    cursor: pointer;
+    border: 1px solid #e5e5e5;
+    vertical-align: top;
+    box-sizing: border-box;
+    background-color: #FAFAFA;
+}
+
+.apsa-available-element:hover {
+    border-color: #999;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+
+.apsa-slide-noopen {
+    position: relative;
+    padding: 4px 0;
+    margin: 0;
+}
+
+.apsa-slide-noopen .apsa-slide-open-pointer {
+    display: none;
+}
+
+.apsa-element-options{
+    font-size: initial;
+}
+
+.apsa-var-option input[type="text"], .apsa-var-option textarea{
+    width: 100%;
+}
+
+.apsa-var-option select{
+    width: 50%;
+}
+
+form.apsa-var-options {
+    background-color: #fff;
+    border: solid 1px #efeeee;
+    padding: 0 6px;
+    margin-bottom: 13px;
+}
+
+.apsa-fixed-element{
+    background-color: #D0D0D0;
+}
+
+.apsa-form-item > span:first-child{
+    max-width: 80%;
+}
+
+select.apsa-form-changer {
+    width: 100%;
+    margin-bottom: 4px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.apsa-parent-cont {
+    padding: 1%;
+    min-height: 150px;
+    box-sizing: border-box;
+}
+
+.apsa-item-part h3.apsa-element-opener {
+    padding: 4px 0;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.apsa-element-opener {
+    cursor: pointer;
+    position: relative;
+}
+
+.apsa-waiting-sort {    
+    border-color: #b0b0b0;
+}
+
+.apsa-waiting-parent {    
+    background-color: #e8e8e8;
+}
+
+.apsa-available-elements {
+    min-height: 80px;
+}
+
+.apsa-element-control {
+    padding-top: 10px;
+    padding-bottom: 4px;
+}
+
+.apsa-remove-control {
+    color: #a00;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.apsa-remove-control:hover {
+    color: #a00;
+    color: #ff0000;
+}
+
+.apsa-hidden-control {
+    display: none;
+}
+
+.apsa-builder-wrapper {
+    display: inline-block;
+}
+
+.apsa-floating-parts {
+    position: relative;
+    width: 100%;
+}
+
+.apsa-float-top{
+    position: absolute;
+    top: 0;
+}
+
+.apsa-float-bottom{
+    position: absolute;
+    bottom: 0;
+}
+
+.apsa-delete-area {
+    position: absolute;
+    width: 100%;
+    min-height: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 4px dashed #b0b0b0;    
+    box-sizing: border-box;
+    height: 100%;
+    z-index: 3;
+    visibility: hidden;
+}
+
+.apsa-delete-area:after {
+    content: 'Delete';
+    color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 40px;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.apsa-waiting-delete {
+    visibility: visible;
+}
+
+.apsa-empty-template:after {
+    content: attr(data-apsa-text);
+    color: #d9d9d9;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 40px;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.apsa-empty-availables:after {
+    content: attr(data-apsa-text);
+    color: #d9d9d9;
+    font-size: 14px;
+}
+
+input[type="radio"].apsa-element-option {
+    margin: 0 4px;
+}
+
+.apsa-var-option {
+    margin: 4px 0;
+}
+
+.apsa-var-option.apsa-hidden-var{
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.apsa-var-option.apsa-hidden-var + .apsa-var-option:not(.apsa-hidden-var){
+    margin-top: 0 !important;
+}
+
+.apsa-available-elements .apsa-available-element.ui-sortable-placeholder{
+    display: none;
+}
+
+.apsa-available-elements .apsa-unusable-element:not(.apsa-multi-element){
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** Mobile Styles */
+@media only screen and (max-width : 990px) {
+    .apsa-template-wrapper {
+        float: none;    
+        width: 100%;
+    }
+
+    .apsa-availables-wrapper {
+        width: 100%;    
+        float: none;
+    }
+
+    .apsa-builder-part .apsa-connect-sortables {
+        min-height: 130px;
+    }
+}
+
+@media only screen and (max-width : 692px){
+    .apsa-availables-wrapper .apsa-available-element {
+        display: block; 
+        width: 100%;
+    }
+}

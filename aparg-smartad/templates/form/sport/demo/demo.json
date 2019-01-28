@@ -1,0 +1,132 @@
+{
+    "0apsa_info_block": {
+        "var_groups": {
+            "options": {
+                "label": "Options",
+                "vars": {
+                    "apsa_info_bg_color": {
+                        "value": "#224444"
+                    },
+                    "apsa_logo_title": {
+                        "value": "Your Logo"
+                    },
+                    "apsa_logo_title_color": {
+                        "value": "#ffffff"
+                    },
+                    "apsa_center_heading_color": {
+                        "value": "#fff"
+                    },
+                    "apsa_heading_one": {
+                        "value": "SOFT"
+                    },
+                    "apsa_heading_two": {
+                        "value": "OPENING"
+                    },
+                    "apsa_heading_three": {
+                        "value": "TODAY"
+                    },
+                    "apsa_time_text": {
+                        "value": "09 AM - 10 PM"
+                    },
+                    "apsa_time_color": {
+                        "value": "#fff"
+                    },
+                    "apsa_link_btn_text": {
+                        "value": "CLICK HERE"
+                    },
+                    "apsa_link_btn_text_color": {
+                        "value": "#224444"
+                    },
+                    "apsa_link_btn_color": {
+                        "value": "#EEF0E5"
+                    },
+                    "apsa_link_btn_href": {
+                        "value": ""
+                    },
+                    "apsa_link_btn_open_type": {
+                        "value": "_window"
+                    }
+                }
+            }
+        },
+        "choosen_childs": ["1apsa_logo", "2apsa_center_headings", "3apsa_click_button"]
+    },
+    "1apsa_logo": {
+        "var_groups": {
+            "options": {
+                "label": "Logo",
+                "vars": {
+                    "apsa_logo_img": {
+                        "value": "%apsa_theme_path%/res/images/logo.png"
+                    }
+                }
+            }
+        }
+    },
+    "2apsa_center_headings": {
+        "var_groups": {
+            "options": {
+                "label": "Center Headings",
+                "vars": {
+                    "apsa_heading_one": {
+                        "value": "SOFT"
+                    },
+                    "apsa_heading_two": {
+                        "value": "OPENING"
+                    },
+                    "apsa_heading_three": {
+                        "value": "TODAY"
+                    },
+                    "apsa_center_heading_color": {
+                        "value": "#fff"
+                    },
+                    "apsa_time_text": {
+                        "value": "09 AM - 10 PM"
+                    },
+                    "apsa_time_color": {
+                        "value": "#fff"
+                    }
+                }
+            }
+        }
+    },
+    "3apsa_click_button": {
+        "var_groups": {
+            "options": {
+                "label": "Button",
+                "vars": {
+                    "apsa_link_btn_text": {
+                        "value": "CLICK HERE"
+                    },
+                    "apsa_link_btn_text_color": {
+                        "value": "#224444"
+                    },
+                    "apsa_link_btn_color": {
+                        "value": "#EEF0E5"
+                    },
+                    "apsa_link_btn_href": {
+                        "value": ""
+                    },
+                    "apsa_link_btn_open_type": {
+                        "value": "_window"
+                    }
+                }
+            }
+        }
+    },
+    "4apsa_template_img": {
+        "var_groups": {
+            "options": {
+                "label": "Options",
+                "vars": {
+                    "apsa_template_bg_img": {
+                        "value": "%apsa_theme_path%/res/images/background.jpg"
+                    },
+                    "apsa_template_bg_color": {
+                        "value": "#ccc"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,940 @@
+@font-face {
+    font-family: 'wp-dashicons';
+    src: url(../../includes/fonts/dashicons-master/dashicons.eot);
+    src: local('wp-dashicons'), url('../../includes/fonts/dashicons-master/dashicons.woff') format('woff'), url('../../includes/fonts/dashicons-master/dashicons.ttf') format('truetype');
+}
+
+button, input[type="button"] {
+    text-transform: capitalize;
+}
+
+.apsa-item-part h3.apsa-slide-opener {
+    padding: 4px 0;
+    margin: 0;
+}
+
+.apsa-item-part {
+    background: #fff;
+    padding: 8px 8px;
+    border: 1px solid #e5e5e5;
+}
+
+.apsa-dash-pub-date span {
+    text-transform: capitalize;
+}
+
+h3.apsa-slide-opener span {
+    text-transform: capitalize;
+}
+
+text.highcharts-title, text.highcharts-yaxis-title {
+    text-transform: capitalize;
+}
+
+#apsa-managing-wrap {
+    width: 97%;
+    margin: 1% 0;
+    position: relative;    
+}
+
+#apsa-managing-wrap .ui-slider.ui-widget-content {
+    border: initial;
+    background: initial;
+    color: initial;
+}
+
+#apsa-managing-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 360px;
+    background: #000;
+    opacity: 0.7;
+    z-index: 159900;
+    display: none;
+}
+
+#apsa-element-campaign-header span {
+    line-height: initial;
+    text-transform: capitalize;
+}
+
+#apsa-save-camps-cont {
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+}
+
+.apsa-popup {
+    background-color: #FCFCFC;
+    position: fixed;
+    top: 20%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    z-index: 300000;
+    width: 600px;
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+[data-apsa-open="false"] {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.apsa-sliding-block[data-apsa-open="true"] {
+    visibility: visible;
+    opacity: 1;
+    margin-top: 8px;
+}
+
+.apsa-popup .apsa-form-item * {
+    width: 100%;
+}
+
+.apsa-transit-150 {
+    -moz-transition: all 150ms ease-in;
+    -webkit-transition: all 150ms ease-in;
+    -o-transition: all 150ms ease-in;
+    transition: all 150ms ease-in; 
+}
+
+.apsa-transit-450 {
+    -moz-transition: all 450ms ease-in;
+    -webkit-transition: all 450ms ease-in;
+    -o-transition: all 450ms ease-in;
+    transition: all 450ms ease-in; 
+}
+
+.apsa-error-input{
+    border: solid 1px #C70014 !important;
+}
+
+.apsa-input-message {
+    font-size: 11px;
+    font-style: italic;
+}
+
+.apsa-input-message:first-letter {
+    text-transform: uppercase;
+}
+
+.apsa-error-valid {
+    color: #C70014 !important;
+}
+
+.apsa-form-items {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0 12px;
+}
+
+.apsa-popup-header, .apsa-popup-footer {
+    padding: 12px 10px;
+}
+
+.apsa-popup-footer {    
+    text-align: right;
+    position: relative;
+    height: 30px;
+    border-top: 1px solid #ddd;    
+}
+
+.apsa-popup-header{
+    border-bottom: 1px solid #ddd;
+}
+
+.apsa-close-popup {
+    width: 20px;
+    height: 20px;
+    display: block;
+    color: #666;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+.apsa-close-popup:before{
+    content: '\f158';
+    font: 400 20px/1 wp-dashicons;
+    speak: none;
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.apsa-close-popup:hover{
+    color: #00a0d2;
+}
+
+.apsa-popup-title {
+    font-weight: 400;
+    font-size: 18px;
+    padding: 12px 0;
+    display: block;
+}
+
+.apsa-popup-title:first-letter {
+    text-transform: uppercase;
+}
+
+[data-apsa-open="false"] {
+    height: 0;
+    overflow: hidden;
+}
+
+.apsa-form-item > span, .apsa-input-block > span{
+    display: inline-block;
+    padding: 4px 0;
+    vertical-align: top;
+}
+
+.apsa-suspended-input {
+    display: block;
+    border: none !important;
+    box-shadow: none !important;    
+    background-color: inherit !important;
+    cursor: inherit;
+}
+
+.apsa-hidden-textarea {
+    display: none;
+}
+
+.apsa-campaigns-filter li {
+    display: inline-block;
+}
+
+.apsa-inside-li:before{
+    content: ' | ';
+    margin: 0 3px;
+    color: #ccc;
+}
+
+.apsa-inside-li:after{
+    content: ' | ';
+    margin: 0 3px;
+    color: #ccc;
+}
+
+.apsa-first-li:after{
+    content: ' | ';
+    margin: 0 3px;
+}
+
+.apsa-status-count {
+    color: #999;
+}
+
+.apsa-status-name, .apsa-element-status-name {
+    color: #0073aa;
+    cursor: pointer;
+}
+
+.apsa-status-name:hover, .apsa-element-status-name:hover{
+    color: #00a0d2;
+}
+
+.apsa-selected-status {
+    font-weight: 600;
+    color: #000;
+}
+
+.apsa-selected-status:hover {
+    color: initial;
+}
+
+.apsa-action-name {
+    color: #0073aa;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.apsa-action-name:hover {
+    color: #00a0d2;
+}
+
+[data-apsa-action="delete"] .apsa-action-name {
+    color: #a00;
+}
+
+[data-apsa-action="delete"] .apsa-action-name:hover {
+    color: red;
+}
+
+.apsa-status-count:before{
+    content: "(";
+}
+
+.apsa-status-count:after{
+    content: ")";
+}
+
+.apsa-element-actions {
+    position: absolute;
+    width: 20px;
+    right: 4px;
+    bottom: 0;
+}
+
+#apsa-message-popup {
+    max-width: 400px;
+    min-width: 300px;
+    width:100%;	
+    background-color: #555;
+    background-repeat: no-repeat;
+    -webkit-background-size: 25px;
+    background-size: 25px;
+    background-position: 8px 8px;
+    min-height: 40px;
+}
+
+.apsa-error-message {
+    background-image: url(images/messages/error.png);
+}
+
+.apsa-success-message {
+    background-image: url(images/messages/success.png);
+}
+
+.apsa-info-message {
+    background-image: url(images/messages/info.png);
+}
+
+#apsa-message-popup p {
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px 30px 10px 40px;
+    word-wrap: break-word;
+}
+
+.apsa-message i:hover {
+    color: #00a0d2;
+}
+
+#apsa-message-popup .apsa-close-popup {
+    color: #ccc;
+}
+
+#apsa-message-popup .apsa-close-popup:hover {
+    color: #fff;
+}
+
+.apsa-slide-open-pointer {
+    width: 24px;
+    height: 24px;    
+    position: absolute;
+    right: 0;
+}
+
+[data-apsa-open-slide="false"] .apsa-slide-open-pointer:before{
+    content: '\f140';
+    color: #a0a5aa;
+    font: 400 20px/1 wp-dashicons;
+    speak: none;
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+}
+
+[data-apsa-open-slide="true"] .apsa-slide-open-pointer:before{
+    content: '\f142';
+    color: #a0a5aa;
+    font: 400 20px/1 wp-dashicons;
+    speak: none;
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+}
+
+.apsa-waiting-button:before{
+    background-image: url(images/spinner.gif);
+    background-size: cover;
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;    
+}
+
+.apsa-waiting-wrapper{
+    float: right;
+}
+
+.apsa-waiting-wrapper button, .apsa-waiting-wrapper input[type="button"] {
+    vertical-align: middle !important;
+}
+
+.apsa-slide-opener {
+    cursor: pointer;
+    position: relative;
+}
+
+.apsa-add-block {
+    border: dashed 5px #D9D9D9;
+    position: relative;
+    cursor: pointer;
+}
+
+.apsa-add-block span:after {
+    background: #e5e5e5;
+    background: rgba(153,153,153,.1);
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    content: '\f132';
+    -webkit-font-smoothing: antialiased;
+    font: 400 74px/115px wp-dashicons;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    text-align: center;
+    color: #999;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-indent: -4px;
+    padding: 0;
+    text-shadow: none;
+    z-index: 4;
+}
+
+.apsa-add-block h3 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+    margin: auto;
+    height: 22px;
+    z-index: 4;
+    font-weight: initial;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.apsa-add-block:hover {
+    background-color: #0073aa;
+    border-color: transparent;
+}
+
+.apsa-add-block:hover span:after {
+    background: #fff;
+    background: rgb(255,255,255);
+    color: #0073aa;
+}
+
+.apsa-add-block:hover h3 {
+    color: #fff;
+}
+
+#apsa-popup-header {
+    padding: 4px 8px;
+}
+
+.apsa-block-selected {
+    box-shadow: inset 0 0 0 0px #fff, 0 0 0 3px #1e8cbe;
+}
+
+.apsa-block-selected div{
+    -webkit-box-shadow: 0 0 0 1px #fff,0 0 0 2px #1e8cbe;
+    box-shadow: 0 0 0 1px #fff,0 0 0 2px #1e8cbe; 
+    background-image: url(images/selection-icons.png);
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: -16px 5px;
+    background-color: #1e8cbe;
+    float: right;
+    margin: -9px -9px 0 0;
+}
+
+.apsa-block-selected div:hover {
+    background-position: -55px 5px;
+}
+
+.apsa-stat-container {
+    display: inline-block;
+    height: 350px;
+    width: 95%;
+}
+
+#apsa-confirm-options li {
+    display: inline-block;
+    margin: 0 12px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #0073AA;
+}
+
+#apsa-confirm-options {
+    margin: 0;
+    text-align: center;
+} 
+
+.apsa-stat-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.apsa-stat-head {
+    background-color: #F1F1F1;
+    font-size: 14px;
+}
+
+.apsa-stat-row {
+    background-color: #FFFFFF;
+    font-size: 12px;
+}
+
+.apsa-stat-list tr {
+    border: solid 1px #dfdfdf;
+}
+
+.apsa-stat-list td, .apsa-stat-list th {
+    padding: 2px 4px;
+}
+
+.apsa-stat-foot {
+    background-color: #F1F1F1;
+}
+
+#apsa-code-area {
+    width: 98%;
+    height: 240px;
+    margin: 0 auto;
+    display: block;
+    resize: none;
+    padding: 2px 6px;
+}
+
+.apsa-stat-loading {
+    background-image: url(images/stat-loading.gif);
+    background-repeat: no-repeat;
+    -webkit-background-size: 50px;
+    background-size: 50px;
+    background-position: 50%;
+}
+
+.apsa-stat-filter input[type="text"] {
+    width: 89px;
+    text-transform: capitalize;
+}
+
+.apsa-popup-cont .apsa-stat-filter input[type="text"] {
+    width: 120px;
+}
+
+.apsa-dash-pub-date:before {
+    content: "\f145";
+    color: #a0a5aa;
+    font: 400 20px/1 wp-dashicons;
+    speak: none;
+    margin-right: 6px;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+}
+
+.apsa-dash-status:before {
+    content: "\f173";
+    color: #a0a5aa;
+    font: 400 20px/1 wp-dashicons;
+    speak: none;
+    margin-right: 6px;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+}
+
+.apsa-dash-delete:before {
+    content: "\f182";
+    color: #a0a5aa;
+    font: 400 20px/1 wp-dashicons;
+    speak: none;
+    margin-right: 6px;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+}
+
+.apsa-dash-shortcode:before{
+    content: "\f475";
+    color: #a0a5aa;
+    font: 400 20px/1 wp-dashicons;
+    speak: none;
+    margin-right: 6px;
+    vertical-align: bottom;
+    -webkit-font-smoothing: antialiased;
+}
+
+.apsa-dash-suspend:before {
+    content: "\f523";
+    color: #a0a5aa;
+    font: 400 20px/1 wp-dashicons;
+    speak: none;
+    margin-right: 6px;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+}
+
+.apsa-dash-activate:before {
+    content: "\f522";
+    color: #a0a5aa;
+    font: 400 20px/1 wp-dashicons;
+    speak: none;
+    margin-right: 6px;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+}
+
+.apsa-dash-export:before {
+    content: "\f310";
+    color: #a0a5aa;
+    font: 400 20px/1 wp-dashicons;
+    speak: none;
+    margin-right: 6px;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+}
+
+.apsa-dash-code:before {
+    content: "\f499";
+    color: #a0a5aa;
+    font: 400 20px/1 wp-dashicons;
+    speak: none;
+    margin-right: 6px;
+    vertical-align: bottom;
+    -webkit-font-smoothing: antialiased;
+}
+
+#apsa-confirm-message {
+    width: 500px;
+}
+
+.apsa-range-stat {
+    padding: 0 6px;
+    text-align: center;
+}
+
+.apsa-form-item .apsa-extra-small-input {
+    width: 75px !important;
+}
+
+.apsa-by-aparg {
+    font-style: italic;
+    color: #777;
+    display: inline-block;
+    float: right;
+}
+
+.apsa-by-aparg:first-letter {    
+    text-transform: uppercase;
+}
+
+.apsa-by-aparg a {
+    text-decoration: none;
+}
+
+.apsa-with-question {
+    background-image: url(images/messages/question.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+    margin: 5px 0 -3px 6px;
+    cursor: pointer;
+    padding: 0 !important;
+    display: inline-block;
+}
+
+.apsa-form-item > span:first-child {
+    text-transform: capitalize;
+}
+
+.bootstrap-tagsinput {
+    width: 97.4% !important;
+}
+
+span.apsa-tags-label {
+    margin-top: 4px;
+    display: inline-block;
+    padding: 5px 0;
+    text-transform: capitalize;
+}
+
+.apsa-form-item input[type="text"], .apsa-form-item select {
+    border-radius: 4px;
+}
+
+.apsa-form-item input[type="text"]:focus, .apsa-form-item select:focus {
+    border: 1px solid #ddd;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+}
+
+.apsa-tags.apsa-sliding-block {
+    margin-top: 0;
+}
+
+.apsa-input-block input[type="text"], .apsa-input-block select {
+    width: 100%;
+}
+
+.apsa-form-item.apsa-element-extra-large-input {
+    width: 34%;
+}
+
+.apsa-form-item.apsa-element-usual-input {
+    width: 15%;
+}
+
+li.apsa-form-item.apsa-element-large-input .apsa-input-block input[type="text"] {
+    width: 100%;
+}
+
+li.apsa-form-item.apsa-element-large-input {
+    width: 31%;
+}
+
+.apsa-popup-cont .apsa-stat-filter {
+    display: block;
+    text-align: center;
+    margin: 40px 0;
+    padding: 0;
+}
+
+.apsa-stat-filter {
+    text-align: center;
+}
+
+.apsa-element-large-input .apsa-input-block {
+    display: table;
+    width: 100%;
+}
+
+.apsa-upload-wrap{
+    display: table-cell;
+    padding: 0;
+    vertical-align: top;
+    padding-right: 6px;
+}
+
+.apsa-upload-input-wrap{    
+    display: table-cell;
+    vertical-align: top;
+    width: 100%;
+}
+
+.apsa-all-action-hidden {
+    display: none !important;
+}
+
+.apsa-tags-inputs {
+    width: 95%;
+    padding: 0 6px 6px 6px;
+}
+
+.apsa-no-cap {
+    text-transform: lowercase !important;
+}
+
+.apsa-form-item > span:first-child, .apsa-form-item  .apsa-input-message{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#apsa-custom-css {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.apsa-dash-shortcode span {
+    text-transform: capitalize;
+}
+
+select {
+    text-transform: capitalize;
+}
+
+.apsa-dash-shortcode .apsa-click-select{
+    text-transform:none;
+}
+
+.apsa-new:after{
+    background-image: url("images/new.gif");
+    background-size: 19px 9px;
+    content: "";
+    display: none;
+    height: 9px;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    width: 19px;
+}
+
+.apsa-new-show:after{
+    display: inline-block !important;
+}
+
+/** styles for warning-text popup */
+#apsa-warning-text{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#apsa-warning-text-enabled{
+    margin: 0 !important;
+    vertical-align: middle;
+}
+
+.apsa-warning-text-enabled{
+    display: block;
+    float: right;
+}
+
+.apsa-warning-text-enabled .apsa-with-question{
+    margin: 5px 0 -4px 0;
+}
+
+/** styles for anticache */
+#apsa-anticache{
+    display: block;
+}
+
+#apsa-anticache .apsa-with-question{
+    margin: 5px 0px -3px 5px;
+}
+
+#apsa-anticache label{
+    vertical-align: initial;
+    font-weight: 600;
+    margin-right: 5px;
+}
+#apsa-anticache input[type="checkbox"]{
+    margin: -4px 0px 0 0;
+}
+
+.apsa-input-block input[type="checkbox"] {
+    margin: 6px 0px 0px 8px !important;
+}
+
+/** styles for settings page */
+.apsa-code-type {
+    margin-top: 35px;
+    width: 610px;
+}
+.apsa-code-type label{
+    font-weight: 600;
+}
+.apsa-code-type-textarea{
+    margin-top: 10px;
+    border: 1px solid #ddd;
+}
+.apsa-dismissible:before{
+    content: "\f153";
+    display: block;
+    font: 400 16px/20px wp-dashicons;
+    speak: none;
+    height: 20px;
+    text-align: center;
+    width: 20px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.apsa-dismissible:hover{
+    color: #c00;
+}
+.apsa-dismissible{
+    width: 20px;
+    height: 20px;
+    display: block;
+    color: #b4b9be;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    margin: auto;    
+}
+.apsa-anticache-notice{
+    position: relative;
+    padding: 5px 35px 5px 10px;
+    margin-right: 15px;
+    margin-left: 0px;
+}
+.apsa-success-update{
+    margin-left: 0px !important;
+}
+.apsa-href-general{
+    text-decoration: none;
+    font-style: italic;
+}
+.apsa-embed-alignment{
+    margin-left: 26px;
+}
+.apsa-embed-alignment label, .apsa-embed-alignment ul{
+    display: inline-block;
+    vertical-align: top;
+}
+.apsa-embed-alignment ul li{
+    display: inline-block;
+    margin-bottom: 0;
+}
+.apsa-embed-alignment ul li:hover{
+    color: #00a0d2;
+    cursor: pointer;
+}
+.apsa-embed-alignment-left:before{
+    content: "\f135";
+}
+.apsa-embed-alignment-center:before{
+    content: "\f134";
+}
+
+.apsa-embed-alignment-right:before{
+    content: "\f136";
+}
+
+.apsa-embed-alignment-none:before{
+    content: "\f138";
+}
+
+.apsa-embed-alignment li:before {   
+    color: #a0a5aa;
+    font: 400 20px/1 wp-dashicons;
+    speak: none;
+    margin-right: 6px;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+}
+
+.apsa-unsaved:before {
+    content: "\f155";
+    font: 400 17px/1 wp-dashicons;
+    speak: none;
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #27AE60;
+}
+
+.apsa-warning-message{
+    color: #f39c12 !important;
+}
+
+/*For Autocomplete */
+.tt-suggestion.tt-cursor {   
+    color: #ffffff;   
+    text-decoration: none;   
+    outline: 0;    
+    background-color: #428bca;
+}

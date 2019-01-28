@@ -1,0 +1,135 @@
+{
+    "0apsa_template": {
+        "var_groups": {
+            "options": {
+                "label": "Options",
+                "vars": {
+                    "apsa_template_bg_color": {
+                        "value": "#fff"
+                    },
+                    "apsa_square_color": {
+                        "value": "#cceedd"
+                    },
+                    "apsa_inner_square_color": {
+                        "value": "#ccaa77"
+                    },
+                    "apsa_image": {
+                        "value": "%apsa_theme_path%/res/images/background.jpg"
+                    },
+                    "apsa_shape_text": {
+                        "value": "SALE"
+                    },
+                    "apsa_shape_text_color": {
+                        "value": "#fff"
+                    },
+                    "apsa_shape_color": {
+                        "value": "#ee2244"
+                    },
+                    "apsa_button_area": {
+                        "value": "#ccaa77"
+                    },
+                    "apsa_link_btn_text": {
+                        "value": "SHOP NOW"
+                    },
+                    "apsa_link_btn_text_color": {
+                        "value": "#fff"
+                    },
+                    "apsa_link_btn_color": {
+                        "value": "#ccaa77"
+                    },
+                    "apsa_link_btn_border_color": {
+                        "value": "#fff"
+                    },
+                    "apsa_link_btn_href": {
+                        "value": ""
+                    },
+                    "apsa_link_btn_open_type": {
+                        "value": "_window"
+                    },
+                    "apsa_link_heading": {
+                        "value": "WWW.YOURSTORE.COM"
+                    },
+                    "apsa_link_heading_color": {
+                        "value": "#000"
+                    },
+                    "apsa_footer_heading": {
+                        "value": "Terms and Conditions May Apply"
+                    },
+                    "apsa_footer_heading_color": {
+                        "value": "#000"
+                    }
+                }
+            }
+        },
+        "choosen_childs": ["1apsa_image_frame", "2apsa_info_block"]
+    },
+    "1apsa_image_frame": {
+        "var_groups": {
+            "options": {
+                "label": "Image Frame Options",
+                "vars": {
+                    "apsa_square_color": {
+                        "value": "#cceedd"
+                    },
+                    "apsa_inner_square_color": {
+                        "value": "#ccaa77"
+                    },
+                    "apsa_image": {
+                        "value": "%apsa_theme_path%/res/images/background.jpg"
+                    },
+                    "apsa_shape_text": {
+                        "value": "SALE"
+                    },
+                    "apsa_shape_text_color": {
+                        "value": "#fff"
+                    },
+                    "apsa_shape_color": {
+                        "value": "#ee2244"
+                    }
+                }
+            }
+        }
+    },
+    "2apsa_info_block": {
+        "var_groups": {
+            "options": {
+                "label": "Info Block Options",
+                "vars": {
+                    "apsa_button_area": {
+                        "value": "#ccaa77"
+                    },
+                    "apsa_link_btn_text": {
+                        "value": "SHOP NOW"
+                    },
+                    "apsa_link_btn_text_color": {
+                        "value": "#fff"
+                    },
+                    "apsa_link_btn_color": {
+                        "value": "#ccaa77"
+                    },
+                    "apsa_link_btn_border_color": {
+                        "value": "#fff"
+                    },
+                    "apsa_link_btn_href": {
+                        "value": ""
+                    },
+                    "apsa_link_btn_open_type": {
+                        "value": "_window"
+                    },
+                    "apsa_link_heading": {
+                        "value": "WWW.YOURSTORE.COM"
+                    },
+                    "apsa_link_heading_color": {
+                        "value": "#000"
+                    },
+                    "apsa_footer_heading": {
+                        "value": "Terms and Conditions May Apply"
+                    },
+                    "apsa_footer_heading_color": {
+                        "value": "#000"
+                    }
+                }
+            }
+        }
+    }
+}

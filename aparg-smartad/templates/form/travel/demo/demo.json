@@ -1,0 +1,84 @@
+{
+    "0apsa_template": {
+        "var_groups": {
+            "options": {
+                "label": "Options",
+                "vars": {
+                    "apsa_template_bg_img": {
+                        "value": "%apsa_theme_path%/res/images/background.jpg"
+                    },
+                    "apsa_template_bg_color": {
+                        "value": "#ccc"
+                    },
+                    "apsa_info_block_color": {
+                        "value": "#fff"
+                    },
+                    "apsa_link_btn_text": {
+                        "value": "CLICK HERE"
+                    },
+                    "apsa_link_btn_text_color": {
+                        "value": "#fff"
+                    },
+                    "apsa_link_btn_color": {
+                        "value": "#bb3311"
+                    },
+                    "apsa_link_btn_href": {
+                        "value": ""
+                    },
+                    "apsa_link_btn_open_type": {
+                        "value": "_window"
+                    },
+                    "apsa_footer_heading": {
+                        "value": "Terms and Conditions May Apply"
+                    },
+                    "apsa_footer_heading_color": {
+                        "value": "#bb3311"
+                    },
+                    "apsa_first_heading": {
+                        "value": "OFF 25%"
+                    },
+                    "apsa_first_heading_color": {
+                        "value": "#bb3311"
+                    },
+                    "apsa_second_heading": {
+                        "value": "ALL NEW ITEMS"
+                    },
+                    "apsa_second_heading_color": {
+                        "value": "#bb3311"
+                    }
+                }
+            }
+        },
+        "choosen_childs": ["1apsa_heading_one", "2apsa_heading_two"]
+    },
+    "1apsa_heading_one": {
+        "var_groups": {
+            "options": {
+                "label": "First Heading",
+                "vars": {
+                    "apsa_first_heading": {
+                        "value": "OFF 25%"
+                    },
+                    "apsa_first_heading_color": {
+                        "value": "#bb3311"
+                    }
+                }
+            }
+        }
+    },
+    "2apsa_heading_two": {
+        "var_groups": {
+            "options": {
+                "label": "Second Heading",
+                "vars": {
+                    "apsa_second_heading": {
+                        "value": "ALL NEW ITEMS"
+                    },
+                    "apsa_second_heading_color": {
+                        "value": "#bb3311"
+                    }
+                }
+            }
+        }
+    }
+}

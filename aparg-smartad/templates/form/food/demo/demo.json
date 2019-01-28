@@ -1,0 +1,138 @@
+{
+    "0apsa_template": {
+        "var_groups": {
+            "options": {
+                "label": "Options",
+                "vars": {
+                    "apsa_template_bg_img": {
+                        "value": "%apsa_theme_path%/res/images/background.jpg"
+                    },
+                    "apsa_template_bg_color": {
+                        "value": "#ccc"
+                    },
+                    "apsa_frame_color": {
+                        "value": "#ffffff"
+                    },
+                    "apsa_link_btn_text": {
+                        "value": "CLICK HERE"
+                    },
+                    "apsa_link_btn_text_color": {
+                        "value": "#000000"
+                    },
+                    "apsa_link_btn_color": {
+                        "value": "#dedb2c"
+                    },
+                    "apsa_link_btn_href": {
+                        "value": ""
+                    },
+                    "apsa_link_btn_open_type": {
+                        "value": "_window"
+                    },
+                    "apsa_logo_title": {
+                        "value": "YOUR LOGO"
+                    },
+                    "apsa_logo_title_color": {
+                        "value": "#ffffff"
+                    },
+                    "apsa_logo_img": {
+                        "value": "%apsa_theme_path%/res/images/logo.png"
+                    },
+                    "apsa_description_above": {
+                        "value": "SPECIAL OFFER"
+                    },
+                    "apsa_description_above_color": {
+                        "value": "#fff"
+                    },
+                    "apsa_center_logo": {
+                        "value": "Free Sushi"
+                    },
+                    "apsa_center_logo_color": {
+                        "value": "#fff"
+                    },
+                    "apsa_shape_text": {
+                        "value": "PICK YOURS"
+                    },
+                    "apsa_shape_text_color": {
+                        "value": "#000000"
+                    },
+                    "apsa_shape_color": {
+                        "value": "#dedb2c"
+                    },
+                    "apsa_description_below": {
+                        "value": "ON WEEKEND"
+                    },
+                    "apsa_description_below_color": {
+                        "value": "#fff"
+                    }
+                }
+            }
+        },
+        "choosen_childs": ["1apsa_logo", "2apsa_desc_above", "3apsa_center_logo", "4apsa_desc_below"]
+    },
+    "1apsa_logo": {
+        "var_groups": {
+            "options": {
+                "label": "Logo",
+                "vars": {
+                    "apsa_logo_img": {
+                        "value": "%apsa_theme_path%/res/images/logo.png"
+                    }
+                }
+            }
+        }
+    },
+    "2apsa_desc_above": {
+        "var_groups": {
+            "options": {
+                "label": "First Heading",
+                "vars": {
+                    "apsa_description_above": {
+                        "value": "SPECIAL OFFER"
+                    },
+                    "apsa_description_above_color": {
+                        "value": "#fff"
+                    }
+                }
+            }
+        }
+    },
+    "3apsa_center_logo": {
+        "var_groups": {
+            "options": {
+                "label": "Center Heading",
+                "vars": {
+                    "apsa_center_logo": {
+                        "value": "Free Sushi"
+                    },
+                    "apsa_center_logo_color": {
+                        "value": "#fff"
+                    },
+                    "apsa_shape_text": {
+                        "value": "PICK YOURS"
+                    },
+                    "apsa_shape_text_color": {
+                        "value": "#000"
+                    },
+                    "apsa_shape_color": {
+                        "value": "#f4e542"
+                    }
+                }
+            }
+        }
+    },
+    "4apsa_desc_below": {
+        "var_groups": {
+            "options": {
+                "label": "Third Heading",
+                "vars": {
+                    "apsa_description_below": {
+                        "value": "ON WEEKEND"
+                    },
+                    "apsa_description_below_color": {
+                        "value": "#fff"
+                    }
+                }
+            }
+        }
+    }
+}

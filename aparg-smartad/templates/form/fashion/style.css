@@ -1,0 +1,407 @@
+.apsa-fashion .apsa-template-container{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height:100%;
+    visibility: hidden;
+
+}
+.apsa-fashion .apsa-banner-h4 .apsa-image,
+.apsa-fashion .apsa-banner-h2 .apsa-image, 
+.apsa-fashion .apsa-banner-wh .apsa-image, 
+.apsa-fashion .apsa-banner-w2 .apsa-image,
+.apsa-fashion .apsa-banner-w4 .apsa-image{
+    position: relative;
+    width: 75%;
+    height: 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    top: 12.5%;
+    left: 12.5%;
+    transform: rotate(-45deg);
+}
+
+.apsa-fashion .apsa-block{
+    top: 15%;
+    margin: auto;
+    position: relative;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.apsa-fashion .apsa-block:nth-child(2) {
+     position: absolute;
+  
+}
+
+.apsa-fashion .apsa-square{
+    position: relative;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.apsa-fashion .apsa-banner-h4 .apsa-square,
+.apsa-fashion .apsa-banner-h2 .apsa-square,
+.apsa-fashion .apsa-banner-wh .apsa-square, 
+.apsa-fashion .apsa-banner-w2 .apsa-square,
+.apsa-fashion .apsa-banner-w4 .apsa-square{
+    width: 100%;
+    height: 100%;
+    transform: rotate(45deg);
+}
+.apsa-fashion .apsa-inner-square{
+    position: absolute; 
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.apsa-fashion .apsa-banner-h4 .apsa-inner-square,
+.apsa-fashion .apsa-banner-h2 .apsa-inner-square, 
+.apsa-fashion .apsa-banner-wh .apsa-inner-square, 
+.apsa-fashion .apsa-banner-w2 .apsa-inner-square, 
+.apsa-fashion .apsa-banner-w4 .apsa-inner-square{
+    width: 70%;
+    height: 70%;
+    top: 15%;
+    left: 15%;
+
+}
+.apsa-fashion  .apsa-circle-text>span{
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.apsa-fashion .apsa-banner-h4 .apsa-circle-text,
+.apsa-fashion .apsa-banner-h2 .apsa-circle-text,
+.apsa-fashion .apsa-banner-wh .apsa-circle-text,
+.apsa-fashion .apsa-banner-w2 .apsa-circle-text,
+.apsa-fashion .apsa-banner-w4 .apsa-circle-text{
+    position: relative;
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    top: 15%;
+    left: 20%;
+    transform: rotate(-45deg);
+    overflow: hidden;
+}
+.apsa-fashion .apsa-button-wrap{
+    position: relative;
+    width: 100%;
+    height: 48%;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+}
+
+.apsa-fashion .apsa-info-block{
+    background-color:transparent;
+    font-family: sans-serif;
+}
+.apsa-fashion .apsa-circle-text, 
+.apsa-fashion .apsa-link-heading{
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.apsa-fashion .apsa-link-heading{
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+}
+.apsa-fashion .apsa-banner-h6 .apsa-info-block{
+    position: relative;
+    width: 100%;
+    height: 60%;
+    top: 0;
+    left: 0;
+}
+.apsa-fashion .apsa-banner-h6 .apsa-info-block:nth-child(1){
+    position: absolute;
+}
+.apsa-fashion .apsa-banner-h6 .apsa-image{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.apsa-fashion .apsa-banner-h6 .apsa-inner-square,
+.apsa-fashion .apsa-banner-w6 .apsa-inner-square,
+.apsa-fashion .apsa-banner-h6 .apsa-square,
+.apsa-fashion .apsa-banner-w6 .apsa-square{
+    width: 100%;
+    height: 100%;
+}
+.apsa-fashion .apsa-banner-h6 .apsa-circle-text{
+    position: absolute;
+    background-color: #ee2244;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    top: 15%;
+    left: 20%;
+    overflow: hidden;
+}
+.apsa-fashion .apsa-banner-h6 .apsa-button-wrap{
+    position: relative;
+    width: 100%;
+    height: 20%;
+   
+
+}
+.apsa-fashion .apsa-banner-h6 .apsa-info-block>div:nth-child(1){
+     top: 20%;
+}
+.apsa-fashion .apsa-click-btn:active, 
+.apsa-fashion .apsa-click-btn:visited{
+    color: inherit;
+}
+.apsa-fashion .apsa-click-btn:focus {
+    outline: none;
+}
+.apsa-fashion .apsa-click-btn:hover {
+    box-shadow:none !important;
+}
+.apsa-fashion .apsa-banner-h6 .apsa-click-btn,
+.apsa-fashion .apsa-banner-h4 .apsa-click-btn,
+.apsa-fashion .apsa-banner-h2 .apsa-click-btn,
+.apsa-fashion .apsa-banner-wh .apsa-click-btn,
+.apsa-fashion .apsa-banner-w6 .apsa-click-btn,
+.apsa-fashion .apsa-banner-w2 .apsa-click-btn,
+.apsa-fashion .apsa-banner-w4 .apsa-click-btn{
+    position: relative;
+    border-style: solid;
+    padding: 0 2%;
+    vertical-align: middle;
+    line-height: 1.6;
+    margin: auto;
+    box-sizing: border-box;
+    top: 30%;
+    word-break:normal;
+    box-shadow:none !important;
+    white-space: nowrap;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline-block;
+}
+.apsa-fashion .apsa-banner-h6 .apsa-link-heading{
+    vertical-align: middle;
+    
+}
+.apsa-fashion .apsa-banner-h6 .apsa-info-block>div:nth-child(2){
+    top: 22%;
+}
+.apsa-fashion .apsa-banner-h6 .apsa-footer-heading{
+    position: absolute;
+    float: right;
+    max-width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    bottom: 1%;
+    right: 1%;
+}
+
+.apsa-fashion .apsa-banner-h4 .apsa-info-block{
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+.apsa-fashion .apsa-banner-h4 .apsa-button-wrap{
+    position: relative;
+    width: 100%;
+    height: 48%;
+}
+
+.apsa-fashion .apsa-banner-h4 .apsa-link-heading{
+    width: 100%;
+   
+}
+.apsa-fashion .apsa-banner-h4 .apsa-info-block>div:nth-child(2),
+.apsa-fashion .apsa-banner-wh .apsa-info-block>div:nth-child(2),
+.apsa-fashion .apsa-banner-h2 .apsa-info-block>div:nth-child(2){
+    top: 5%;
+}
+.apsa-fashion .apsa-banner-h4 .apsa-footer-heading{
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    top: 20%;
+}
+
+.apsa-fashion .apsa-banner-h2 .apsa-info-block{
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.apsa-fashion .apsa-banner-h2 .apsa-button-wrap{
+    position: relative;
+    width: 100%;
+    height: 48%;
+
+}
+
+.apsa-fashion .apsa-banner-h2 .apsa-link-heading{
+    width: 100%;
+}
+.apsa-fashion .apsa-banner-h2 .apsa-footer-heading{
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    top: 20%;
+}
+.apsa-fashion .apsa-banner-wh .apsa-info-block:nth-child(1),
+.apsa-fashion .apsa-banner-h4 .apsa-info-block:nth-child(1),
+.apsa-fashion .apsa-banner-h2 .apsa-info-block:nth-child(1){
+    top:0;
+}
+.apsa-fashion .apsa-banner-wh .apsa-block:nth-child(2),
+.apsa-fashion .apsa-banner-h2 .apsa-block:nth-child(2){
+    bottom:0;
+}
+.apsa-fashion .apsa-banner-wh .apsa-info-block{
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.apsa-fashion .apsa-banner-wh .apsa-button-wrap{
+    position: relative;
+    width: 100%;
+    height: 48%;
+
+}
+.apsa-fashion .apsa-banner-wh .apsa-link-heading{
+    width: 100%;
+}
+.apsa-fashion .apsa-banner-wh .apsa-footer-heading{
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    top: 20%;
+}
+
+.apsa-fashion .apsa-banner-w2 .apsa-info-block{
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    top: 40%;
+    right: 0;
+    z-index: 1;
+}
+
+.apsa-fashion .apsa-banner-w2 .apsa-circle-text{
+    position: relative;
+    float: left;
+    max-width: 50%;
+    top: 15%;
+    left: 1%;
+}
+.apsa-fashion .apsa-banner-w2 .apsa-button-wrap{
+    position: relative;
+    width: 100%;
+    height: 34%;
+
+}
+
+.apsa-fashion .apsa-banner-w4 .apsa-info-block{
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    top: 40%;
+    right: 0;
+    z-index: 1;
+}
+.apsa-fashion .apsa-banner-w4 .apsa-circle-text{
+    position: relative;
+    float: left;
+    max-width: 50%;
+    top: 15%;
+    left: 1%;
+}
+.apsa-fashion .apsa-banner-w4 .apsa-button-wrap{
+    position: relative;
+    width: 100%;
+    height: 34%;
+}
+
+.apsa-fashion .apsa-banner-w4 .apsa-link-heading,
+.apsa-fashion .apsa-banner-w2 .apsa-link-heading,
+.apsa-fashion .apsa-banner-w6 .apsa-link-heading{
+    width: 100%;
+
+}
+.apsa-fashion .apsa-banner-w4 .apsa-info-block div:nth-child(2),
+.apsa-fashion .apsa-banner-w2 .apsa-info-block div:nth-child(2),
+.apsa-fashion .apsa-banner-w6 .apsa-info-block div:nth-child(2){
+   top:2%;
+}
+.apsa-fashion .apsa-banner-w4 .apsa-footer-heading,
+.apsa-fashion .apsa-banner-w2 .apsa-footer-heading,
+.apsa-fashion .apsa-banner-w6 .apsa-footer-heading{
+    position: absolute;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    bottom: 5%;
+}
+
+.apsa-fashion .apsa-banner-w6 .apsa-info-block{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.apsa-fashion .apsa-banner-w6 .apsa-image{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.apsa-fashion .apsa-banner-w6 .apsa-circle-text{
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    top: 15%;
+    left: 20%;
+    overflow: hidden;
+    height: 25%;
+    width: 25%;
+}
+.apsa-fashion .apsa-banner-w6 .apsa-button-wrap{
+    position: relative;
+    width: 100%;
+    height: 50%;
+
+}
+.apsa-fashion .apsa-banner-w2 .apsa-info-block:nth-child(1),
+.apsa-fashion .apsa-banner-w4 .apsa-info-block:nth-child(1),
+.apsa-fashion .apsa-banner-w6 .apsa-info-block:nth-child(1){
+    left:0;
+}
